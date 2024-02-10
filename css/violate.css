@@ -1,0 +1,103 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+.wrap-form {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #0000009e;
+  z-index: 10;
+  height: 100%;
+  display: none;
+  /* transition: 0.5s; */
+}
+.wrap-form.active {
+  display: block;
+  /* transition: 0.5s; */
+}
+.container-vp {
+  width: 70%;
+  margin: auto;
+  height: 778.51px;
+  margin-top: 8%;
+  z-index: 6;
+}
+
+/* .container-vp.active{
+    display: block;
+} */
+.content-form {
+  margin: auto;
+  width: 50%;
+  background: #ffffff;
+  /* transform: translateX(60%); */
+  height: auto;
+  border: 1px solid black;
+}
+.header-content {
+  height: 58.38px;
+  border-bottom: 1px solid black;
+}
+.header-content h2 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 43px;
+
+  color: #000000;
+  margin-left: 20px;
+}
+.main-content {
+  width: 100%;
+  margin: 5% 3% 0;
+  /* margin-top: 20px; */
+}
+.checked-content {
+  padding-bottom: 40px;
+}
+.checkbox-item {
+  padding: 5px 0;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+}
+.button button {
+  width: 100.77px;
+  height: 30.96px;
+}
+.send-button button {
+  background-color: #004771;
+  border: none;
+}
+.send-button span {
+  color: #ffffff;
+}
+
+.skip-button button {
+  background-color: #ffffff;
+  border: 2px solid black;
+}
+.skip-button span {
+  color: black;
+}
+
+@media screen and (max-width: 900px) {
+  .container-vp {
+    width: 90%;
+    margin-top: 12%;
+}
+.content-form{
+  width: 100%;
+}
+}
+@media screen and (max-width: 510px) {
+  .container-vp {
+    width: 100%;
+    margin-top: 43%;
+}
+.content-form{
+  width: 100%;
+}
+}

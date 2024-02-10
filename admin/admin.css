@@ -1,0 +1,185 @@
+.logined {
+    margin-left: 80px;
+}
+
+button.search-btn {
+    background: #0089D9;
+    border: none;
+    color: white;
+    font-size: 17px;
+    padding: 0 10px;
+    font-weight: 400;
+    outline: none;
+}
+.seacrh-id{
+    padding: 0 15px;
+}
+.container.table{
+    border: 1px solid #9A9A9A;
+    width: 100%;
+    /* box-shadow: 0 8px 15px 3px #e5e5e5; */
+    border-radius: 7px;
+    background-color: white;
+    /* position: absolute; */
+    margin: auto;
+}
+.container.table .line-border{
+    border-top: 0.1px solid #707070;
+    border-bottom: 0.1px solid #707070;
+}
+.container.table .line-border p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #004771;
+}
+ .col-2.price{
+    font-size: 20px;
+    font-weight: 700;
+    color: #004771;
+}
+.btn-action{
+    display: flex;
+    flex-direction: column;
+}
+.btn-action button{
+    width: 100px;
+}
+.btn-action .accept{
+
+}
+.btn-action .accept button{
+    background: #004771;
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: 700;
+}
+.btn-action .denied{
+margin-top: 20px;
+}
+.btn-action .denied button{
+    border: 1px solid ;
+    outline: none;
+    border: 0.5px solid #000000;
+    font-weight: 700;
+    color: #004771;
+    background-color: white;
+}
+.read-more p{
+    color: #004771;
+}
+.col-2 .name-post{
+    color: #004771;
+}
+.line-title{
+
+}
+.line-bottom{padding: 20px 0;/* border-bottom: 0.5px solid #707070; */}
+.col-md-2 .password{
+    justify-content: center;
+    display: flex;
+}
+.manager-post {
+    padding: 10px;
+    background-color: #004771;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 0 0 220px;
+    /* height: 375px; */
+  }
+  .manager-post .title-manager-post{
+      margin-top: 5%;
+  }
+  .all-background{
+    position: relative;
+  }
+  .row-manager-white{
+
+margin-top: -190px;
+}
+@media screen and (max-width: 550px) {
+    .row-manager-white{
+
+        margin-top: 0px;
+        }
+        .manager-post .title-manager-post {
+            margin-top: 0;
+        }
+    button.search-btn {
+        background: #0089D9;
+        border: none;
+        color: white;
+        font-size: 10px;
+        /* padding: 0 10px; */
+        /* font-weight: 400; */
+        width: 100%;
+        outline: none;
+    }
+    .container.table {
+        /* border: 1px solid #707070; */
+        width: 100%;
+        box-shadow: none;
+        border-radius: 7px;
+        display: flex;
+        border: none;
+     
+    }
+    .line-border{
+    width: 30%;
+    }
+
+ .line-bottom{
+     padding: 0;
+     width: 40%;
+     align-items: end;
+     border: none;
+ }
+.row.pt-3.pb-3.line-bottom{
+    display: none;
+}
+.all-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn-action .denied {
+    margin-top: 0;
+}
+.container.table .line-border {
+    /* border-top: 0.1px solid #707070; */
+    /* border-bottom: 0.1px solid #707070; */
+    border: none;
+}
+.container.table .line-border p {
+    font-size: 15px;
+    font-weight: 700;
+    color: #004771;
+    line-height: 18px;
+}
+.line-bottom p{
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    font-size: 11px;
+}
+.block-row{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.manager-post {
+    display: block;
+    padding: 10px;
+    background-color: #004771;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+  }
+}
